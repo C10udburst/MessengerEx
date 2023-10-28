@@ -15,7 +15,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Swift Backup Premium" />
+            android:value="An Xposed module that improves the Facebook Messenger experience." />
         <meta-data
             android:name="xposedminversion"
             android:value="93" />
