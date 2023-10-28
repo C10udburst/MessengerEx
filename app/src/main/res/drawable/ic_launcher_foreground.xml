@@ -4,10 +4,10 @@
     android:viewportWidth="24"
     android:viewportHeight="24"
     android:tint="#FFFFFF">
-  <group android:scaleX="0.39"
-      android:scaleY="0.39"
-      android:translateX="7.32"
-      android:translateY="7.32">
-      <path android:fillColor="@android:color/white" android:pathData="M7,2v11h3v9l7,-12h-4l4,-8z"/>
+  <group android:scaleX="0.4"
+      android:scaleY="0.4"
+      android:translateX="6"
+      android:translateY="6">
+      <path android:fillColor="@android:color/white" android:pathData="m 30.187434,14.001629 -8.009311,8.009308 a 3.0034914,3.0034914 0 0 1 -4.254946,0 L 12.043843,16.131605 6.1595013,22.010937 A 3.0087012,3.0087012 0 0 1 1.9045552,17.755991 L 9.9138646,9.7466849 a 3.0034914,3.0034914 0 0 1 4.2549494,0 l 5.884339,5.8843381 5.884341,-5.886841 a 3.0087012,3.0087012 0 0 1 4.254946,4.254944 z"/>
   </group>
 </vector>

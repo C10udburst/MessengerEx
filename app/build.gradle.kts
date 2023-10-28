@@ -14,8 +14,8 @@ android {
         applicationId = "io.github.cloudburst.messengerex"
         minSdk = 27
         targetSdk = 34
-        versionCode = 202
-        versionName = "2.0.2"
+        versionCode = 1
+        versionName = "1.0.0"
     }
 
     buildTypes {
@@ -47,6 +47,6 @@ dependencies {
     implementation("org.luckypray:dexkit:2.0.0-rc7")
 
     // // AndroidX
-    // implementation("androidx.core:core-ktx:1.12.0")
-    // implementation("androidx.activity:activity-compose:1.8.0")
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.browser:browser:1.6.0")
 }

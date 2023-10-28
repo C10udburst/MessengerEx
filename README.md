@@ -1,12 +1,11 @@
-# SwiftBackupPrem
-Swift Backup Premium LSPosed module (tested on v4.2.3 and v4.2.5, but should also work on newer versions - thanks to [DexKit](https://github.com/LuckyPray/DexKit)).
+# MessengerEx
 
-Optionally also allows you to set your own firebase credentials, so only your firebase instance is used.
+An Xposed module that improves the Facebook Messenger experience.
 
-It is highly recommened to set your own firebase credentials, because the developer can ban you from accessing original app using his firebase instance. 
+## Features
 
-Step-by-step setup for your own firebase instance:
+- Kill inbox ads
+- Replace their webbrowser with Chrome Custom Tabs
 
 
-https://user-images.githubusercontent.com/31005896/203136303-36079018-3199-4863-864b-40293342f262.mp4
-
+Thanks to @Juby210 for help with the project.

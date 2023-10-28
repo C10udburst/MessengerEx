@@ -1,2 +1,2 @@
 include(":app")
-rootProject.name = "SwiftBackupPrem"
+rootProject.name = "MessengerEx"
