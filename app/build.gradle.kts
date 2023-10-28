@@ -8,7 +8,6 @@ plugins {
 android {
     namespace = "io.github.cloudburst.messengerex"
     compileSdk = 34
-    ndkVersion = "25.1.8937393"
 
     defaultConfig {
         applicationId = "io.github.cloudburst.messengerex"
@@ -31,10 +30,8 @@ android {
     }
     buildFeatures {
         buildConfig = true
-        compose = true
         resValues = false
     }
-    composeOptions.kotlinCompilerExtensionVersion = "1.5.3"
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
         kotlinOptions {
             jvmTarget = "11"
@@ -49,5 +46,4 @@ dependencies {
     // AndroidX
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.browser:browser:1.6.0")
-    implementation("androidx.compose.runtime:runtime:1.5.4")
 }
