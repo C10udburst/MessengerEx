@@ -4,6 +4,7 @@ import static io.github.cloudburst.messengerex.UtilsKt.getApkPath;
 import static io.github.cloudburst.messengerex.patches.AnalyticsKt.*;
 import static io.github.cloudburst.messengerex.patches.InboxKt.*;
 import static io.github.cloudburst.messengerex.patches.MessagesKt.*;
+import static io.github.cloudburst.messengerex.patches.MetaAIKt.*;
 
 import android.util.Log;
 import org.luckypray.dexkit.DexKitBridge;
@@ -30,6 +31,7 @@ public final class Module implements IXposedHookLoadPackage {
             removeAds(cl, bridge);
             replaceBrowser(cl, bridge);
             removeServices(cl);
+            removeMetaAI(cl, bridge, lpparam.appInfo);
         } catch (Exception e) {
             Log.e(TAG, "Failed to find method", e);
         }

@@ -14,7 +14,7 @@ android {
         minSdk = 27
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0.2"
+        versionName = "1.0.3"
     }
 
     buildTypes {
@@ -42,6 +42,7 @@ android {
 dependencies {
     compileOnly("de.robv.android.xposed:api:82")
     implementation("org.luckypray:dexkit:2.0.0-rc7")
+    implementation("org.smali:dexlib2:2.5.2")
 
     // AndroidX
     implementation("androidx.core:core-ktx:1.12.0")

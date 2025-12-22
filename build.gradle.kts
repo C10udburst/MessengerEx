@@ -4,6 +4,7 @@ buildscript {
         google()
         //noinspection JcenterRepositoryObsolete
         jcenter()
+        maven { url = uri("https://api.xposed.info/") }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:8.1.2")
@@ -16,6 +17,7 @@ allprojects {
         google()
         //noinspection JcenterRepositoryObsolete
         jcenter()
+        maven { url = uri("https://api.xposed.info/") }
     }
 }
 
